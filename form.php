@@ -14,15 +14,24 @@
     <td><input type="text" name="username" ></td>
    </tr>
    <tr>
-    <td>Password :</td>
-    <td><input type="password" name="password" ></td>
+    <td>Roll No: :</td>
+    <td><input type="text" name="rollno" ></td>
+   </tr>
+   <tr>
+    <td>Branch :</td>
+    <td><input type="text" name="branch" ></td>
    </tr>
    <tr>
     <td>Gender :</td>
     <td>
      <input type="radio" name="gender" value="m" >Male
      <input type="radio" name="gender" value="f" >Female
+     <input type="radio" name="gender" value="o" >Others
     </td>
+   </tr>
+   <tr>
+    <td>Year :</td>
+    <td><input type="text" name="year" ></td>
    </tr>
    <tr>
     <td>Email :</td>
@@ -35,9 +44,15 @@
     </td>
    </tr>
    <tr>
+    <td>Hosteller :</td>
+    <td>
+     <input type="radio" name="hosteller" value="m" >Yes
+     <input type="radio" name="hosteller" value="f" >No
+    </td>
+   </tr>
+   <tr>
     <td>
   <button type="Submit" class="btn btn-primary">Submit</button></td>
-  <td><a href="login.php">Login</a> if already Registered</td>
    </tr>
   </table>
  </form>
